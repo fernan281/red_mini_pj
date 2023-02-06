@@ -1,30 +1,27 @@
-#!/usr/bin/env python3.7.
-
-
+#!/usr/bin/env python
 # Creating a list of AWS services and populating it into an empty list
-
 # Create an empty list to store AWS services
 aws_services = []
-print(aws_services)
+print(awsservices)
 
 # Add some AWS services to the list
-aws_services.append("EC2")
-aws_services.append("S3")
-aws_services.append("Cloud9")
-aws_services.append("DynamoDB")
-aws_services.append("AWS Lambda")
-aws_services.append("ECS")
-aws_services.append("RDS")
-aws_services.append("VPC")
+aws-services.append("EC2")
+aws-services.append("S3")
+aws-services.append("Cloud9")
+aws-services.append("DynamoDB")
+aws-services.append("AWS Lambda")
+aws-services.append("ECS")
+aws-services.append("RDS")
+aws-services.append("VPC")
 
-# Print the list and its length
-print("AWS Services: ", aws_services)
-print("Length: ", len(aws_services))
+# Print the list and the length of the list
+print("aws-services")
+print("The lenght of the list is", len(aws-services)
 
 # Remove two specific services from the list
-aws_services.remove("EC2")
-aws_services.remove("RDS")
+aws-services.remove("EC2")
+aws-services.remove("RDS")
 
 # Print the new list and its length
-print("Updated AWS Services: ", aws_services)
-print("New Length: ", len(aws_services))
+print("Updated AWS Services: ", aws-services)
+print("New Length: ", len(aws-services))
